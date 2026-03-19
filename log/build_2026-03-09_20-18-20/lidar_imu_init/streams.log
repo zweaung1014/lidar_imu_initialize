@@ -1,0 +1,307 @@
+[0.015s] Invoking command in '/home/hopcopter/ws_lidar_imu_init/build/lidar_imu_init': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hopcopter/ws_lidar_imu_init/src/LiDAR_IMU_Init -DCMAKE_INSTALL_PREFIX=/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init
+[0.037s] [0mCurrent CPU architecture: x86_64[0m
+[0.042s] [0mProcessor number: 8[0m
+[0.047s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.216s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.256s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.259s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.266s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.277s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.290s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.325s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.326s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.447s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.502s] -- Found rclcpp_components: 16.0.18 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.523s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.537s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.555s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.573s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[0.583s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.604s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[0.649s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.684s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.022s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.029s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.203s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.210s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.216s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.386s] -- Found Qhull version 8.0.2
+[1.546s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.724s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.725s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.791s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.808s] -- Found tf2_eigen: 0.25.19 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.815s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[1.826s] -- Found required Ceres dependency: glog
+[1.826s] -- Found required Ceres dependency: gflags
+[1.827s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[1.831s] [33mCMake Warning (dev) at CMakeLists.txt:71 (find_package):
+[1.831s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[1.831s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[1.831s]   command to set the policy and suppress this warning.
+[1.831s] 
+[1.831s]   CMake variable PCL_ROOT is set to:
+[1.831s] 
+[1.831s]     /usr
+[1.831s] 
+[1.832s]   For compatibility, CMake is ignoring the variable.
+[1.832s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.832s] [0m
+[2.165s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.627s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.816s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.849s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.851s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.879s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.879s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.879s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.880s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.903s] -- Found PythonExtra: .so  
+[2.996s] -- Configuring done
+[3.107s] -- Generating done
+[3.131s] -- Build files have been written to: /home/hopcopter/ws_lidar_imu_init/build/lidar_imu_init
+[3.155s] Invoked command in '/home/hopcopter/ws_lidar_imu_init/build/lidar_imu_init' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hopcopter/ws_lidar_imu_init/src/LiDAR_IMU_Init -DCMAKE_INSTALL_PREFIX=/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init
+[3.157s] Invoking command in '/home/hopcopter/ws_lidar_imu_init/build/lidar_imu_init': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hopcopter/ws_lidar_imu_init/build/lidar_imu_init -- -j8 -l8
+[3.203s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.216s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.224s] [  4%] Built target ament_cmake_python_copy_lidar_imu_init
+[3.534s] running egg_info
+[3.535s] creating lidar_imu_init.egg-info
+[3.536s] writing lidar_imu_init.egg-info/PKG-INFO
+[3.536s] writing dependency_links to lidar_imu_init.egg-info/dependency_links.txt
+[3.536s] writing top-level names to lidar_imu_init.egg-info/top_level.txt
+[3.537s] writing manifest file 'lidar_imu_init.egg-info/SOURCES.txt'
+[3.538s] reading manifest file 'lidar_imu_init.egg-info/SOURCES.txt'
+[3.539s] writing manifest file 'lidar_imu_init.egg-info/SOURCES.txt'
+[3.573s] [  4%] Built target ament_cmake_python_build_lidar_imu_init_egg
+[3.758s] [  6%] [32mBuilding C object CMakeFiles/lidar_imu_init__rosidl_generator_c.dir/rosidl_generator_c/lidar_imu_init/msg/detail/pose6_d__functions.c.o[0m
+[3.767s] [  8%] [32mBuilding C object CMakeFiles/lidar_imu_init__rosidl_generator_c.dir/rosidl_generator_c/lidar_imu_init/msg/detail/states__functions.c.o[0m
+[3.783s] [  8%] Built target lidar_imu_init__cpp
+[3.795s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.795s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.795s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.918s] [ 17%] [32m[1mLinking C shared library liblidar_imu_init__rosidl_generator_c.so[0m
+[3.968s] [ 17%] Built target lidar_imu_init__rosidl_generator_c
+[3.982s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.984s] [ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.989s] [ 24%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.364s] [ 26%] [32mBuilding CXX object CMakeFiles/lidar_imu_init__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lidar_imu_init/msg/detail/pose6_d__type_support.cpp.o[0m
+[4.364s] [ 28%] [32mBuilding CXX object CMakeFiles/lidar_imu_init__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lidar_imu_init/msg/detail/states__type_support.cpp.o[0m
+[4.408s] [ 31%] [32mBuilding CXX object CMakeFiles/lidar_imu_init__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lidar_imu_init/msg/detail/dds_fastrtps/states__type_support.cpp.o[0m
+[4.418s] [ 33%] [32mBuilding CXX object CMakeFiles/lidar_imu_init__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lidar_imu_init/msg/detail/dds_fastrtps/pose6_d__type_support.cpp.o[0m
+[4.502s] [ 35%] [32mBuilding CXX object CMakeFiles/lidar_imu_init__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lidar_imu_init/msg/pose6_d__type_support.cpp.o[0m
+[4.658s] [ 37%] [32mBuilding CXX object CMakeFiles/lidar_imu_init__rosidl_typesupport_c.dir/rosidl_typesupport_c/lidar_imu_init/msg/pose6_d__type_support.cpp.o[0m
+[4.660s] [ 40%] [32mBuilding C object CMakeFiles/lidar_imu_init__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lidar_imu_init/msg/detail/pose6_d__type_support.c.o[0m
+[4.723s] [ 42%] [32mBuilding CXX object CMakeFiles/lidar_imu_init__rosidl_typesupport_c.dir/rosidl_typesupport_c/lidar_imu_init/msg/states__type_support.cpp.o[0m
+[4.759s] [ 44%] [32mBuilding C object CMakeFiles/lidar_imu_init__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lidar_imu_init/msg/detail/states__type_support.c.o[0m
+[4.827s] [ 46%] [32m[1mLinking CXX shared library liblidar_imu_init__rosidl_typesupport_c.so[0m
+[4.899s] [ 48%] [32mBuilding CXX object CMakeFiles/lidar_imu_init__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lidar_imu_init/msg/detail/pose6_d__type_support_c.cpp.o[0m
+[4.944s] [ 51%] [32m[1mLinking C shared library liblidar_imu_init__rosidl_typesupport_introspection_c.so[0m
+[4.945s] [ 51%] Built target lidar_imu_init__rosidl_typesupport_c
+[4.986s] [ 53%] [32mBuilding CXX object CMakeFiles/lidar_imu_init__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lidar_imu_init/msg/states__type_support.cpp.o[0m
+[5.027s] [ 53%] Built target lidar_imu_init__rosidl_typesupport_introspection_c
+[5.039s] [ 55%] [32mBuilding CXX object CMakeFiles/lidar_imu_init__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lidar_imu_init/msg/detail/states__type_support_c.cpp.o[0m
+[5.364s] [ 57%] [32m[1mLinking CXX shared library liblidar_imu_init__rosidl_typesupport_introspection_cpp.so[0m
+[5.510s] [ 57%] Built target lidar_imu_init__rosidl_typesupport_introspection_cpp
+[5.520s] [ 60%] [32m[1mLinking CXX shared library liblidar_imu_init__rosidl_typesupport_cpp.so[0m
+[5.593s] [ 60%] Built target lidar_imu_init__rosidl_typesupport_cpp
+[5.623s] [ 62%] [32mBuilding CXX object CMakeFiles/li_init.dir/include/ikd-Tree/ikd_Tree.cpp.o[0m
+[5.624s] [ 64%] [32mBuilding CXX object CMakeFiles/li_init.dir/src/laserMapping.cpp.o[0m
+[5.625s] [ 66%] [32mBuilding CXX object CMakeFiles/li_init.dir/include/time_utils.cpp.o[0m
+[5.627s] [ 68%] [32mBuilding CXX object CMakeFiles/li_init.dir/include/LI_init/LI_init.cpp.o[0m
+[5.628s] [ 71%] [32mBuilding CXX object CMakeFiles/li_init.dir/src/preprocess.cpp.o[0m
+[5.646s] [ 73%] [32m[1mLinking CXX shared library liblidar_imu_init__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.719s] [ 75%] [32m[1mLinking CXX shared library liblidar_imu_init__rosidl_typesupport_fastrtps_c.so[0m
+[5.778s] [ 75%] Built target lidar_imu_init__rosidl_typesupport_fastrtps_cpp
+[5.856s] [ 75%] Built target lidar_imu_init__rosidl_typesupport_fastrtps_c
+[5.892s] [ 75%] Built target lidar_imu_init
+[5.924s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.960s] [ 77%] Built target lidar_imu_init__py
+[6.992s] [ 80%] [32mBuilding C object CMakeFiles/lidar_imu_init__rosidl_generator_py.dir/rosidl_generator_py/lidar_imu_init/msg/_pose6_d_s.c.o[0m
+[7.009s] [ 82%] [32mBuilding C object CMakeFiles/lidar_imu_init__rosidl_generator_py.dir/rosidl_generator_py/lidar_imu_init/msg/_states_s.c.o[0m
+[7.514s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/lidar_imu_init/liblidar_imu_init__rosidl_generator_py.so[0m
+[7.584s] [ 84%] Built target lidar_imu_init__rosidl_generator_py
+[7.636s] [ 86%] [32mBuilding C object CMakeFiles/lidar_imu_init__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lidar_imu_init/_lidar_imu_init_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.646s] [ 88%] [32mBuilding C object CMakeFiles/lidar_imu_init__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lidar_imu_init/_lidar_imu_init_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.646s] [ 91%] [32mBuilding C object CMakeFiles/lidar_imu_init__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lidar_imu_init/_lidar_imu_init_s.ep.rosidl_typesupport_c.c.o[0m
+[7.887s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/lidar_imu_init/lidar_imu_init_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.946s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/lidar_imu_init/lidar_imu_init_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.971s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/lidar_imu_init/lidar_imu_init_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.985s] [ 97%] Built target lidar_imu_init__rosidl_typesupport_c__pyext
+[8.029s] [ 97%] Built target lidar_imu_init__rosidl_typesupport_fastrtps_c__pyext
+[8.059s] [ 97%] Built target lidar_imu_init__rosidl_typesupport_introspection_c__pyext
+[73.722s] [100%] [32m[1mLinking CXX executable li_init[0m
+[75.735s] [100%] Built target li_init
+[75.748s] Invoked command in '/home/hopcopter/ws_lidar_imu_init/build/lidar_imu_init' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hopcopter/ws_lidar_imu_init/build/lidar_imu_init -- -j8 -l8
+[75.759s] Invoking command in '/home/hopcopter/ws_lidar_imu_init/build/lidar_imu_init': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hopcopter/ws_lidar_imu_init/build/lidar_imu_init
+[75.768s] -- Install configuration: "Release"
+[75.768s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/ament_index/resource_index/rosidl_interfaces/lidar_imu_init
+[75.768s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init
+[75.768s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg
+[75.768s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail
+[75.768s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__struct.h
+[75.768s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__type_support.h
+[75.768s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__functions.c
+[75.769s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__type_support.h
+[75.769s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__struct.h
+[75.769s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__functions.c
+[75.769s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__functions.h
+[75.769s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__functions.h
+[75.769s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/pose6_d.h
+[75.769s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/states.h
+[75.769s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/rosidl_generator_c__visibility_control.h
+[75.770s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/environment/library_path.sh
+[75.770s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/environment/library_path.dsv
+[75.770s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_generator_c.so
+[75.770s] -- Set runtime path of "/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_generator_c.so" to ""
+[75.770s] -- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init
+[75.770s] -- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg
+[75.771s] -- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail
+[75.771s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__rosidl_typesupport_fastrtps_c.h
+[75.771s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h
+[75.771s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[75.771s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_typesupport_fastrtps_c.so
+[75.771s] -- Set runtime path of "/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_typesupport_fastrtps_c.so" to ""
+[75.772s] -- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init
+[75.772s] -- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg
+[75.772s] -- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail
+[75.772s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__type_support.hpp
+[75.773s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__builder.hpp
+[75.773s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__traits.hpp
+[75.773s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__struct.hpp
+[75.773s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__builder.hpp
+[75.773s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__struct.hpp
+[75.773s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__traits.hpp
+[75.773s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__type_support.hpp
+[75.773s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/pose6_d.hpp
+[75.773s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/states.hpp
+[75.774s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/rosidl_generator_cpp__visibility_control.hpp
+[75.774s] -- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init
+[75.774s] -- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg
+[75.774s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[75.774s] -- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail
+[75.774s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/dds_fastrtps
+[75.774s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp
+[75.774s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__rosidl_typesupport_fastrtps_cpp.hpp
+[75.774s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_typesupport_fastrtps_cpp.so
+[75.774s] -- Set runtime path of "/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_typesupport_fastrtps_cpp.so" to ""
+[75.775s] -- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init
+[75.775s] -- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg
+[75.775s] -- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail
+[75.775s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__type_support.c
+[75.775s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__type_support.c
+[75.775s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h
+[75.775s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__rosidl_typesupport_introspection_c.h
+[75.775s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[75.775s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_typesupport_introspection_c.so
+[75.776s] -- Set runtime path of "/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_typesupport_introspection_c.so" to ""
+[75.776s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_typesupport_c.so
+[75.776s] -- Set runtime path of "/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_typesupport_c.so" to ""
+[75.776s] -- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init
+[75.776s] -- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg
+[75.776s] -- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail
+[75.776s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__type_support.cpp
+[75.776s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp
+[75.776s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__rosidl_typesupport_introspection_cpp.hpp
+[75.777s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__type_support.cpp
+[75.777s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_typesupport_introspection_cpp.so
+[75.777s] -- Set runtime path of "/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_typesupport_introspection_cpp.so" to ""
+[75.777s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_typesupport_cpp.so
+[75.778s] -- Set runtime path of "/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_typesupport_cpp.so" to ""
+[75.778s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/environment/pythonpath.sh
+[75.778s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/environment/pythonpath.dsv
+[75.778s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init-0.0.0-py3.10.egg-info
+[75.778s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init-0.0.0-py3.10.egg-info/dependency_links.txt
+[75.778s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init-0.0.0-py3.10.egg-info/SOURCES.txt
+[75.778s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init-0.0.0-py3.10.egg-info/PKG-INFO
+[75.778s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init-0.0.0-py3.10.egg-info/top_level.txt
+[75.779s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init
+[75.779s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/lidar_imu_init_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[75.779s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/lidar_imu_init_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[75.779s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/__init__.py
+[75.779s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/msg
+[75.779s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/msg/_pose6_d_s.c
+[75.779s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/msg/__init__.py
+[75.779s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/msg/_states_s.c
+[75.779s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/msg/_pose6_d.py
+[75.780s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/msg/_states.py
+[75.780s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/_lidar_imu_init_s.ep.rosidl_typesupport_fastrtps_c.c
+[75.780s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/liblidar_imu_init__rosidl_generator_py.so
+[75.780s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/_lidar_imu_init_s.ep.rosidl_typesupport_introspection_c.c
+[75.780s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/_lidar_imu_init_s.ep.rosidl_typesupport_c.c
+[75.780s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/lidar_imu_init_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[75.819s] Listing '/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init'...
+[75.819s] Compiling '/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/__init__.py'...
+[75.819s] Listing '/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/msg'...
+[75.820s] Compiling '/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/msg/__init__.py'...
+[75.820s] Compiling '/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/msg/_pose6_d.py'...
+[75.820s] Compiling '/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/msg/_states.py'...
+[75.825s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/lidar_imu_init_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[75.825s] -- Set runtime path of "/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/lidar_imu_init_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[75.825s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/lidar_imu_init_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[75.826s] -- Set runtime path of "/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/lidar_imu_init_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[75.826s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/lidar_imu_init_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[75.826s] -- Set runtime path of "/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/lidar_imu_init_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[75.826s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_generator_py.so
+[75.827s] -- Set runtime path of "/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_generator_py.so" to ""
+[75.827s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/msg/Pose6D.idl
+[75.827s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/msg/States.idl
+[75.827s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/msg/Pose6D.msg
+[75.827s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/msg/States.msg
+[75.828s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/lidar_imu_init/li_init
+[75.830s] -- Set runtime path of "/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/lidar_imu_init/li_init" to ""
+[75.830s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/config
+[75.831s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/config/avia.yaml
+[75.831s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/config/ouster.yaml
+[75.831s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/config/mid360.yaml
+[75.831s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/config/velodyne.yaml
+[75.831s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/config/ouster32.yaml
+[75.831s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/config/ouster64.yaml
+[75.832s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/config/horizon.yaml
+[75.832s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/config/robosense.yaml
+[75.832s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/config/pandar.yaml
+[75.832s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/launch
+[75.832s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/launch/mapping.launch.py
+[75.833s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/launch/gdb_debug_example.launch
+[75.833s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/rviz
+[75.833s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/rviz/li_init.rviz
+[75.833s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/ament_index/resource_index/package_run_dependencies/lidar_imu_init
+[75.833s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/ament_index/resource_index/parent_prefix_path/lidar_imu_init
+[75.833s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/environment/ament_prefix_path.sh
+[75.833s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/environment/ament_prefix_path.dsv
+[75.834s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/environment/path.sh
+[75.834s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/environment/path.dsv
+[75.834s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/local_setup.bash
+[75.834s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/local_setup.sh
+[75.834s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/local_setup.zsh
+[75.834s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/local_setup.dsv
+[75.835s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/package.dsv
+[75.835s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/ament_index/resource_index/packages/lidar_imu_init
+[75.835s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/export_lidar_imu_init__rosidl_generator_cExport.cmake
+[75.835s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/export_lidar_imu_init__rosidl_generator_cExport-release.cmake
+[75.835s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/export_lidar_imu_init__rosidl_typesupport_fastrtps_cExport.cmake
+[75.835s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/export_lidar_imu_init__rosidl_typesupport_fastrtps_cExport-release.cmake
+[75.835s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/export_lidar_imu_init__rosidl_generator_cppExport.cmake
+[75.835s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/export_lidar_imu_init__rosidl_typesupport_fastrtps_cppExport.cmake
+[75.835s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/export_lidar_imu_init__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[75.835s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/lidar_imu_init__rosidl_typesupport_introspection_cExport.cmake
+[75.836s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/lidar_imu_init__rosidl_typesupport_introspection_cExport-release.cmake
+[75.836s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/lidar_imu_init__rosidl_typesupport_cExport.cmake
+[75.836s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/lidar_imu_init__rosidl_typesupport_cExport-release.cmake
+[75.836s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/lidar_imu_init__rosidl_typesupport_introspection_cppExport.cmake
+[75.837s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/lidar_imu_init__rosidl_typesupport_introspection_cppExport-release.cmake
+[75.837s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/lidar_imu_init__rosidl_typesupport_cppExport.cmake
+[75.837s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/lidar_imu_init__rosidl_typesupport_cppExport-release.cmake
+[75.837s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/export_lidar_imu_init__rosidl_generator_pyExport.cmake
+[75.837s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/export_lidar_imu_init__rosidl_generator_pyExport-release.cmake
+[75.837s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/rosidl_cmake-extras.cmake
+[75.837s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/ament_cmake_export_dependencies-extras.cmake
+[75.837s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/ament_cmake_export_include_directories-extras.cmake
+[75.837s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/ament_cmake_export_libraries-extras.cmake
+[75.838s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/ament_cmake_export_targets-extras.cmake
+[75.838s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[75.838s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[75.838s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/lidar_imu_initConfig.cmake
+[75.838s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/lidar_imu_initConfig-version.cmake
+[75.838s] -- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/package.xml
+[75.842s] Invoked command in '/home/hopcopter/ws_lidar_imu_init/build/lidar_imu_init' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hopcopter/ws_lidar_imu_init/build/lidar_imu_init

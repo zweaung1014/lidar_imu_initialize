@@ -1,0 +1,2 @@
+Invoking command in '/home/hopcopter/ws_lidar_imu_init/build/lidar_imu_init': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hopcopter/ws_lidar_imu_init/src/LiDAR_IMU_Init -DCMAKE_INSTALL_PREFIX=/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init
+Invoked command in '/home/hopcopter/ws_lidar_imu_init/build/lidar_imu_init' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hopcopter/ws_lidar_imu_init/src/LiDAR_IMU_Init -DCMAKE_INSTALL_PREFIX=/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init

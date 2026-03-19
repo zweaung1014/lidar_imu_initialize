@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "lidar_imu_init__py",
+		"source" : "/home/hopcopter/ws_lidar_imu_init/build/lidar_imu_init/lidar_imu_init__py"
+	}
+}

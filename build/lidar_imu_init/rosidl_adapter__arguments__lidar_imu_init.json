@@ -1,0 +1,7 @@
+{
+  "package_name": "lidar_imu_init",
+  "non_idl_tuples": [
+    "/home/hopcopter/ws_lidar_imu_init/src/LiDAR_IMU_Init:msg/Pose6D.msg",
+    "/home/hopcopter/ws_lidar_imu_init/src/LiDAR_IMU_Init:msg/States.msg"
+  ]
+}

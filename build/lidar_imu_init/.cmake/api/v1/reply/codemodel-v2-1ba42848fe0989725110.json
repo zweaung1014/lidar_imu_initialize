@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-cc5c753d18c75830c9cb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "lidar_imu_init__py",
+					"jsonFile" : "directory-lidar_imu_init__py-Release-db0574d46e77d936af2d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/hopcopter/ws_lidar_imu_init/build/lidar_imu_init/lidar_imu_init__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "lidar_imu_init",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_lidar_imu_init_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_lidar_imu_init_egg-Release-e7838a4fcbceb87cf72a.json",
+					"name" : "ament_cmake_python_build_lidar_imu_init_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_lidar_imu_init::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_lidar_imu_init-Release-37bd503574706db5100a.json",
+					"name" : "ament_cmake_python_copy_lidar_imu_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "li_init::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-li_init-Release-7afeaed7b8e61669e374.json",
+					"name" : "li_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_imu_init::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_imu_init-Release-7141baf6159d58fdae13.json",
+					"name" : "lidar_imu_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_imu_init__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_imu_init__cpp-Release-82faf2d3bf3ad77a5260.json",
+					"name" : "lidar_imu_init__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lidar_imu_init__py::@49ce638a575d4d4f3576",
+					"jsonFile" : "target-lidar_imu_init__py-Release-f7aae50e8d7c6a7c1ec6.json",
+					"name" : "lidar_imu_init__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_imu_init__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_imu_init__rosidl_generator_c-Release-d64fc05aad02c69e53c9.json",
+					"name" : "lidar_imu_init__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_imu_init__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_imu_init__rosidl_generator_py-Release-3c006372ce3d97188811.json",
+					"name" : "lidar_imu_init__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_imu_init__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_imu_init__rosidl_typesupport_c-Release-9f545ff99dd57def6111.json",
+					"name" : "lidar_imu_init__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_imu_init__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_imu_init__rosidl_typesupport_c__pyext-Release-cdcf7659736270bb87b1.json",
+					"name" : "lidar_imu_init__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_imu_init__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_imu_init__rosidl_typesupport_cpp-Release-35666f08f224fb86e56e.json",
+					"name" : "lidar_imu_init__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_imu_init__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_imu_init__rosidl_typesupport_fastrtps_c-Release-98ecc7f5b2e1c3091a49.json",
+					"name" : "lidar_imu_init__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_imu_init__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_imu_init__rosidl_typesupport_fastrtps_c__pyext-Release-a93e8ff846ac637f448d.json",
+					"name" : "lidar_imu_init__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_imu_init__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_imu_init__rosidl_typesupport_fastrtps_cpp-Release-d89e770342385e61773a.json",
+					"name" : "lidar_imu_init__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_imu_init__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_imu_init__rosidl_typesupport_introspection_c-Release-b26ab7b30120298c7add.json",
+					"name" : "lidar_imu_init__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_imu_init__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_imu_init__rosidl_typesupport_introspection_c__pyext-Release-374c433cd7d5ef7f0c9b.json",
+					"name" : "lidar_imu_init__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_imu_init__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_imu_init__rosidl_typesupport_introspection_cpp-Release-ee436aa10dba59f1bb4c.json",
+					"name" : "lidar_imu_init__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_imu_init_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_imu_init_uninstall-Release-15db3dec37ea1b54e937.json",
+					"name" : "lidar_imu_init_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-31dd8aeae6ccd8c187f6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hopcopter/ws_lidar_imu_init/build/lidar_imu_init",
+		"source" : "/home/hopcopter/ws_lidar_imu_init/src/LiDAR_IMU_Init"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

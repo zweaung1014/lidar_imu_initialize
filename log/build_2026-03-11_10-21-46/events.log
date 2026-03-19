@@ -1,0 +1,782 @@
+[0.000000] (-) TimerEvent: {}
+[0.000374] (lidar_imu_init) JobQueued: {'identifier': 'lidar_imu_init', 'dependencies': OrderedDict()}
+[0.000509] (lidar_imu_init) JobStarted: {'identifier': 'lidar_imu_init'}
+[0.009818] (lidar_imu_init) JobProgress: {'identifier': 'lidar_imu_init', 'progress': 'cmake'}
+[0.011520] (lidar_imu_init) JobProgress: {'identifier': 'lidar_imu_init', 'progress': 'build'}
+[0.011589] (lidar_imu_init) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hopcopter/ws_lidar_imu_init/build/lidar_imu_init', '--', '-j8', '-l8'], 'cwd': '/home/hopcopter/ws_lidar_imu_init/build/lidar_imu_init', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'hopcopter'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/hopcopter/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/226/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hopcopter/ws_livox/install/livox_ros_driver2/lib:/home/hopcopter/rislab-hopcopter/ros2_ws/install/tutorial_interfaces/lib:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hopcopter'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/hopcopter/ws_livox'), ('TERM_PROGRAM_VERSION', '1.109.5'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/226/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/hopcopter/.nvm/versions/node/v20.20.0/bin'), ('NVM_INC', '/home/hopcopter/.nvm/versions/node/v20.20.0/include/node'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/hopcopter/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/226/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/226/usr/share/code/code'), ('MANAGERPID', '867'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1052'), ('BUNDLED_DEBUGPY_PATH', '/home/hopcopter/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3397'), ('NVM_DIR', '/home/hopcopter/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hopcopter/ws_livox/install:/home/hopcopter/rislab-hopcopter/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hopcopter'), ('JOURNAL_STREAM', '8:12338'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'hopcopter'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/hopcopter/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/hopcopter/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/hopcopter/.local/bin:/opt/ros/humble/bin:/home/hopcopter/.nvm/versions/node/v20.20.0/bin:/home/hopcopter/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hopcopter/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/hopcopter-ROUTER-2L:@/tmp/.ICE-unix/1002,unix/hopcopter-ROUTER-2L:/tmp/.ICE-unix/1002'), ('GTK_EXE_PREFIX', '/snap/code/226/usr'), ('INVOCATION_ID', '027c6787bc984cb596eabbdf9cf000f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/226/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hopcopter/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-93dbe603f89f16a5.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/hopcopter/.config/Code/User/workspaceStorage/7004e197838e3676787cdc81eebef86d/ms-python.python/pythonrc.py'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/hopcopter/snap/code/226/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FGE4L3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-adffeaa08b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/hopcopter/snap/code/226/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/hopcopter/ws_livox/install/livox_ros_driver2:/home/hopcopter/rislab-hopcopter/ros2_ws/install/test_tutorial_interfaces:/home/hopcopter/rislab-hopcopter/ros2_ws/install/hopping_robot:/home/hopcopter/rislab-hopcopter/ros2_ws/install/tutorial_interfaces:/home/hopcopter/rislab-hopcopter/ros2_ws/install/tf_transform_broadcast:/home/hopcopter/rislab-hopcopter/ros2_ws/install/rrt_star_planner:/home/hopcopter/rislab-hopcopter/ros2_ws/install/pc2tocustom:/home/hopcopter/rislab-hopcopter/ros2_ws/install/local_planning:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_sim:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_examples:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_py:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hopcopter/ws_lidar_imu_init/build/lidar_imu_init'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/hopcopter/snap/code/226/.local/share:/home/hopcopter/snap/code/226:/snap/code/226/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hopcopter/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/hopcopter/rislab-hopcopter/ros2_ws/install/test_tutorial_interfaces/lib/python3.10/site-packages:/home/hopcopter/rislab-hopcopter/ros2_ws/install/hopping_robot/lib/python3.10/site-packages:/home/hopcopter/rislab-hopcopter/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/hopcopter/rislab-hopcopter/ros2_ws/install/tf_transform_broadcast/lib/python3.10/site-packages:/home/hopcopter/rislab-hopcopter/ros2_ws/install/pc2tocustom/lib/python3.10/site-packages:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hopcopter/ws_livox/install/livox_ros_driver2:/home/hopcopter/rislab-hopcopter/ros2_ws/install/tutorial_interfaces:/home/hopcopter/rislab-hopcopter/ros2_ws/install/rrt_star_planner:/home/hopcopter/rislab-hopcopter/ros2_ws/install/local_planning:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_sim:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_examples:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_interfaces:/home/hopcopter/rislab-hopcopter/ros2_ws/install/test_tutorial_interfaces:/home/hopcopter/rislab-hopcopter/ros2_ws/install/hopping_robot:/home/hopcopter/rislab-hopcopter/ros2_ws/install/tf_transform_broadcast:/home/hopcopter/rislab-hopcopter/ros2_ws/install/pc2tocustom:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_py:/opt/ros/humble')]), 'shell': False}
+[0.083178] (lidar_imu_init) StdoutLine: {'line': b'[  2%] Built target lidar_imu_init__cpp\n'}
+[0.094243] (lidar_imu_init) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_imu_init__rosidl_generator_c\x1b[0m\n'}
+[0.095859] (lidar_imu_init) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_lidar_imu_init\n'}
+[0.099752] (-) TimerEvent: {}
+[0.100673] (lidar_imu_init) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_imu_init__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.102850] (lidar_imu_init) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_imu_init__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.103412] (lidar_imu_init) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_imu_init__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.114921] (lidar_imu_init) StdoutLine: {'line': b'[ 11%] Built target lidar_imu_init__rosidl_generator_c\n'}
+[0.122623] (lidar_imu_init) StdoutLine: {'line': b'[ 20%] Built target lidar_imu_init__rosidl_typesupport_introspection_cpp\n'}
+[0.126520] (lidar_imu_init) StdoutLine: {'line': b'[ 28%] Built target lidar_imu_init__rosidl_typesupport_fastrtps_cpp\n'}
+[0.133792] (lidar_imu_init) StdoutLine: {'line': b'[ 37%] Built target lidar_imu_init__rosidl_typesupport_cpp\n'}
+[0.135789] (lidar_imu_init) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_imu_init__rosidl_typesupport_c\x1b[0m\n'}
+[0.136190] (lidar_imu_init) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_imu_init__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.136532] (lidar_imu_init) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_imu_init__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.149579] (lidar_imu_init) StdoutLine: {'line': b'[ 46%] Built target lidar_imu_init__rosidl_typesupport_c\n'}
+[0.149808] (lidar_imu_init) StdoutLine: {'line': b'[ 55%] Built target lidar_imu_init__rosidl_typesupport_introspection_c\n'}
+[0.152941] (lidar_imu_init) StdoutLine: {'line': b'[ 64%] Built target lidar_imu_init__rosidl_typesupport_fastrtps_c\n'}
+[0.167919] (lidar_imu_init) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target li_init\x1b[0m\n'}
+[0.174753] (lidar_imu_init) StdoutLine: {'line': b'[ 64%] Built target lidar_imu_init\n'}
+[0.196119] (lidar_imu_init) StdoutLine: {'line': b'[ 66%] Built target lidar_imu_init__py\n'}
+[0.199842] (-) TimerEvent: {}
+[0.209790] (lidar_imu_init) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_imu_init__rosidl_generator_py\x1b[0m\n'}
+[0.223361] (lidar_imu_init) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/li_init.dir/src/laserMapping.cpp.o\x1b[0m\n'}
+[0.223579] (lidar_imu_init) StdoutLine: {'line': b'[ 75%] Built target lidar_imu_init__rosidl_generator_py\n'}
+[0.238367] (lidar_imu_init) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_imu_init__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.238841] (lidar_imu_init) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_imu_init__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.238954] (lidar_imu_init) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_imu_init__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.254135] (lidar_imu_init) StdoutLine: {'line': b'[ 80%] Built target lidar_imu_init__rosidl_typesupport_c__pyext\n'}
+[0.256206] (lidar_imu_init) StdoutLine: {'line': b'[ 84%] Built target lidar_imu_init__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.256990] (lidar_imu_init) StdoutLine: {'line': b'[ 88%] Built target lidar_imu_init__rosidl_typesupport_introspection_c__pyext\n'}
+[0.299936] (-) TimerEvent: {}
+[0.400804] (-) TimerEvent: {}
+[0.417316] (lidar_imu_init) StdoutLine: {'line': b'running egg_info\n'}
+[0.418161] (lidar_imu_init) StdoutLine: {'line': b'writing lidar_imu_init.egg-info/PKG-INFO\n'}
+[0.418469] (lidar_imu_init) StdoutLine: {'line': b'writing dependency_links to lidar_imu_init.egg-info/dependency_links.txt\n'}
+[0.418656] (lidar_imu_init) StdoutLine: {'line': b'writing top-level names to lidar_imu_init.egg-info/top_level.txt\n'}
+[0.421183] (lidar_imu_init) StdoutLine: {'line': b"reading manifest file 'lidar_imu_init.egg-info/SOURCES.txt'\n"}
+[0.422397] (lidar_imu_init) StdoutLine: {'line': b"writing manifest file 'lidar_imu_init.egg-info/SOURCES.txt'\n"}
+[0.456988] (lidar_imu_init) StdoutLine: {'line': b'[ 88%] Built target ament_cmake_python_build_lidar_imu_init_egg\n'}
+[0.500916] (-) TimerEvent: {}
+[0.601236] (-) TimerEvent: {}
+[0.701580] (-) TimerEvent: {}
+[0.801895] (-) TimerEvent: {}
+[0.902171] (-) TimerEvent: {}
+[1.002476] (-) TimerEvent: {}
+[1.102787] (-) TimerEvent: {}
+[1.203117] (-) TimerEvent: {}
+[1.303438] (-) TimerEvent: {}
+[1.403740] (-) TimerEvent: {}
+[1.504074] (-) TimerEvent: {}
+[1.604373] (-) TimerEvent: {}
+[1.704654] (-) TimerEvent: {}
+[1.804980] (-) TimerEvent: {}
+[1.905258] (-) TimerEvent: {}
+[2.005571] (-) TimerEvent: {}
+[2.105875] (-) TimerEvent: {}
+[2.206160] (-) TimerEvent: {}
+[2.306447] (-) TimerEvent: {}
+[2.406776] (-) TimerEvent: {}
+[2.507080] (-) TimerEvent: {}
+[2.607377] (-) TimerEvent: {}
+[2.707701] (-) TimerEvent: {}
+[2.807994] (-) TimerEvent: {}
+[2.908280] (-) TimerEvent: {}
+[3.008596] (-) TimerEvent: {}
+[3.108901] (-) TimerEvent: {}
+[3.209185] (-) TimerEvent: {}
+[3.309503] (-) TimerEvent: {}
+[3.409812] (-) TimerEvent: {}
+[3.510086] (-) TimerEvent: {}
+[3.610388] (-) TimerEvent: {}
+[3.710693] (-) TimerEvent: {}
+[3.810986] (-) TimerEvent: {}
+[3.911258] (-) TimerEvent: {}
+[4.011541] (-) TimerEvent: {}
+[4.111859] (-) TimerEvent: {}
+[4.212195] (-) TimerEvent: {}
+[4.312484] (-) TimerEvent: {}
+[4.412796] (-) TimerEvent: {}
+[4.513110] (-) TimerEvent: {}
+[4.613389] (-) TimerEvent: {}
+[4.713697] (-) TimerEvent: {}
+[4.814004] (-) TimerEvent: {}
+[4.914331] (-) TimerEvent: {}
+[5.014635] (-) TimerEvent: {}
+[5.114930] (-) TimerEvent: {}
+[5.215228] (-) TimerEvent: {}
+[5.315505] (-) TimerEvent: {}
+[5.415806] (-) TimerEvent: {}
+[5.516168] (-) TimerEvent: {}
+[5.616430] (-) TimerEvent: {}
+[5.716786] (-) TimerEvent: {}
+[5.817059] (-) TimerEvent: {}
+[5.917403] (-) TimerEvent: {}
+[6.017768] (-) TimerEvent: {}
+[6.118134] (-) TimerEvent: {}
+[6.218500] (-) TimerEvent: {}
+[6.318869] (-) TimerEvent: {}
+[6.419236] (-) TimerEvent: {}
+[6.519529] (-) TimerEvent: {}
+[6.619885] (-) TimerEvent: {}
+[6.720233] (-) TimerEvent: {}
+[6.820591] (-) TimerEvent: {}
+[6.920912] (-) TimerEvent: {}
+[7.021269] (-) TimerEvent: {}
+[7.121631] (-) TimerEvent: {}
+[7.221943] (-) TimerEvent: {}
+[7.322301] (-) TimerEvent: {}
+[7.422670] (-) TimerEvent: {}
+[7.523038] (-) TimerEvent: {}
+[7.623391] (-) TimerEvent: {}
+[7.723690] (-) TimerEvent: {}
+[7.823966] (-) TimerEvent: {}
+[7.924247] (-) TimerEvent: {}
+[8.024539] (-) TimerEvent: {}
+[8.124842] (-) TimerEvent: {}
+[8.225106] (-) TimerEvent: {}
+[8.325377] (-) TimerEvent: {}
+[8.425778] (-) TimerEvent: {}
+[8.526135] (-) TimerEvent: {}
+[8.626491] (-) TimerEvent: {}
+[8.726860] (-) TimerEvent: {}
+[8.827128] (-) TimerEvent: {}
+[8.927446] (-) TimerEvent: {}
+[9.027754] (-) TimerEvent: {}
+[9.128046] (-) TimerEvent: {}
+[9.228341] (-) TimerEvent: {}
+[9.328637] (-) TimerEvent: {}
+[9.428974] (-) TimerEvent: {}
+[9.529281] (-) TimerEvent: {}
+[9.629584] (-) TimerEvent: {}
+[9.729870] (-) TimerEvent: {}
+[9.830151] (-) TimerEvent: {}
+[9.930477] (-) TimerEvent: {}
+[10.030845] (-) TimerEvent: {}
+[10.131204] (-) TimerEvent: {}
+[10.231564] (-) TimerEvent: {}
+[10.331798] (-) TimerEvent: {}
+[10.432170] (-) TimerEvent: {}
+[10.532524] (-) TimerEvent: {}
+[10.632874] (-) TimerEvent: {}
+[10.733229] (-) TimerEvent: {}
+[10.833511] (-) TimerEvent: {}
+[10.933893] (-) TimerEvent: {}
+[11.034175] (-) TimerEvent: {}
+[11.134472] (-) TimerEvent: {}
+[11.234842] (-) TimerEvent: {}
+[11.335140] (-) TimerEvent: {}
+[11.435529] (-) TimerEvent: {}
+[11.535827] (-) TimerEvent: {}
+[11.636198] (-) TimerEvent: {}
+[11.736489] (-) TimerEvent: {}
+[11.836772] (-) TimerEvent: {}
+[11.937076] (-) TimerEvent: {}
+[12.037369] (-) TimerEvent: {}
+[12.137751] (-) TimerEvent: {}
+[12.238046] (-) TimerEvent: {}
+[12.338377] (-) TimerEvent: {}
+[12.438749] (-) TimerEvent: {}
+[12.539048] (-) TimerEvent: {}
+[12.639309] (-) TimerEvent: {}
+[12.739557] (-) TimerEvent: {}
+[12.839864] (-) TimerEvent: {}
+[12.940121] (-) TimerEvent: {}
+[13.040479] (-) TimerEvent: {}
+[13.140839] (-) TimerEvent: {}
+[13.241128] (-) TimerEvent: {}
+[13.341397] (-) TimerEvent: {}
+[13.441703] (-) TimerEvent: {}
+[13.542073] (-) TimerEvent: {}
+[13.642435] (-) TimerEvent: {}
+[13.742801] (-) TimerEvent: {}
+[13.843152] (-) TimerEvent: {}
+[13.943442] (-) TimerEvent: {}
+[14.043760] (-) TimerEvent: {}
+[14.144091] (-) TimerEvent: {}
+[14.244432] (-) TimerEvent: {}
+[14.344774] (-) TimerEvent: {}
+[14.445078] (-) TimerEvent: {}
+[14.545373] (-) TimerEvent: {}
+[14.645660] (-) TimerEvent: {}
+[14.745966] (-) TimerEvent: {}
+[14.846266] (-) TimerEvent: {}
+[14.946549] (-) TimerEvent: {}
+[15.046808] (-) TimerEvent: {}
+[15.147081] (-) TimerEvent: {}
+[15.247370] (-) TimerEvent: {}
+[15.347682] (-) TimerEvent: {}
+[15.447996] (-) TimerEvent: {}
+[15.548268] (-) TimerEvent: {}
+[15.648581] (-) TimerEvent: {}
+[15.748892] (-) TimerEvent: {}
+[15.849161] (-) TimerEvent: {}
+[15.949459] (-) TimerEvent: {}
+[16.049785] (-) TimerEvent: {}
+[16.150109] (-) TimerEvent: {}
+[16.250451] (-) TimerEvent: {}
+[16.350807] (-) TimerEvent: {}
+[16.451237] (-) TimerEvent: {}
+[16.551520] (-) TimerEvent: {}
+[16.651785] (-) TimerEvent: {}
+[16.752120] (-) TimerEvent: {}
+[16.852476] (-) TimerEvent: {}
+[16.952768] (-) TimerEvent: {}
+[17.053044] (-) TimerEvent: {}
+[17.153319] (-) TimerEvent: {}
+[17.253621] (-) TimerEvent: {}
+[17.353909] (-) TimerEvent: {}
+[17.454243] (-) TimerEvent: {}
+[17.554512] (-) TimerEvent: {}
+[17.654828] (-) TimerEvent: {}
+[17.755124] (-) TimerEvent: {}
+[17.855388] (-) TimerEvent: {}
+[17.955737] (-) TimerEvent: {}
+[18.056040] (-) TimerEvent: {}
+[18.156387] (-) TimerEvent: {}
+[18.256692] (-) TimerEvent: {}
+[18.356991] (-) TimerEvent: {}
+[18.457276] (-) TimerEvent: {}
+[18.557560] (-) TimerEvent: {}
+[18.657867] (-) TimerEvent: {}
+[18.758144] (-) TimerEvent: {}
+[18.858447] (-) TimerEvent: {}
+[18.958758] (-) TimerEvent: {}
+[19.059030] (-) TimerEvent: {}
+[19.159341] (-) TimerEvent: {}
+[19.259634] (-) TimerEvent: {}
+[19.359965] (-) TimerEvent: {}
+[19.460241] (-) TimerEvent: {}
+[19.560505] (-) TimerEvent: {}
+[19.660810] (-) TimerEvent: {}
+[19.761073] (-) TimerEvent: {}
+[19.861373] (-) TimerEvent: {}
+[19.961612] (-) TimerEvent: {}
+[20.061871] (-) TimerEvent: {}
+[20.162164] (-) TimerEvent: {}
+[20.262461] (-) TimerEvent: {}
+[20.362779] (-) TimerEvent: {}
+[20.463058] (-) TimerEvent: {}
+[20.563354] (-) TimerEvent: {}
+[20.663664] (-) TimerEvent: {}
+[20.763969] (-) TimerEvent: {}
+[20.864271] (-) TimerEvent: {}
+[20.964532] (-) TimerEvent: {}
+[21.064783] (-) TimerEvent: {}
+[21.165064] (-) TimerEvent: {}
+[21.265356] (-) TimerEvent: {}
+[21.365652] (-) TimerEvent: {}
+[21.466037] (-) TimerEvent: {}
+[21.566311] (-) TimerEvent: {}
+[21.666609] (-) TimerEvent: {}
+[21.766916] (-) TimerEvent: {}
+[21.867193] (-) TimerEvent: {}
+[21.967474] (-) TimerEvent: {}
+[22.067776] (-) TimerEvent: {}
+[22.168087] (-) TimerEvent: {}
+[22.268378] (-) TimerEvent: {}
+[22.368633] (-) TimerEvent: {}
+[22.469030] (-) TimerEvent: {}
+[22.569319] (-) TimerEvent: {}
+[22.669577] (-) TimerEvent: {}
+[22.769899] (-) TimerEvent: {}
+[22.870166] (-) TimerEvent: {}
+[22.970458] (-) TimerEvent: {}
+[23.070739] (-) TimerEvent: {}
+[23.171061] (-) TimerEvent: {}
+[23.271322] (-) TimerEvent: {}
+[23.371576] (-) TimerEvent: {}
+[23.471867] (-) TimerEvent: {}
+[23.572179] (-) TimerEvent: {}
+[23.672485] (-) TimerEvent: {}
+[23.772787] (-) TimerEvent: {}
+[23.873097] (-) TimerEvent: {}
+[23.973378] (-) TimerEvent: {}
+[24.073677] (-) TimerEvent: {}
+[24.173997] (-) TimerEvent: {}
+[24.274244] (-) TimerEvent: {}
+[24.374506] (-) TimerEvent: {}
+[24.474805] (-) TimerEvent: {}
+[24.575109] (-) TimerEvent: {}
+[24.675372] (-) TimerEvent: {}
+[24.775640] (-) TimerEvent: {}
+[24.875962] (-) TimerEvent: {}
+[24.976263] (-) TimerEvent: {}
+[25.076573] (-) TimerEvent: {}
+[25.176893] (-) TimerEvent: {}
+[25.277165] (-) TimerEvent: {}
+[25.377450] (-) TimerEvent: {}
+[25.477719] (-) TimerEvent: {}
+[25.578026] (-) TimerEvent: {}
+[25.678314] (-) TimerEvent: {}
+[25.778616] (-) TimerEvent: {}
+[25.878995] (-) TimerEvent: {}
+[25.979332] (-) TimerEvent: {}
+[26.079624] (-) TimerEvent: {}
+[26.179900] (-) TimerEvent: {}
+[26.280199] (-) TimerEvent: {}
+[26.380473] (-) TimerEvent: {}
+[26.480795] (-) TimerEvent: {}
+[26.581102] (-) TimerEvent: {}
+[26.681417] (-) TimerEvent: {}
+[26.781712] (-) TimerEvent: {}
+[26.882014] (-) TimerEvent: {}
+[26.982314] (-) TimerEvent: {}
+[27.082626] (-) TimerEvent: {}
+[27.182931] (-) TimerEvent: {}
+[27.283232] (-) TimerEvent: {}
+[27.383522] (-) TimerEvent: {}
+[27.483827] (-) TimerEvent: {}
+[27.584129] (-) TimerEvent: {}
+[27.684445] (-) TimerEvent: {}
+[27.784752] (-) TimerEvent: {}
+[27.885053] (-) TimerEvent: {}
+[27.985348] (-) TimerEvent: {}
+[28.085651] (-) TimerEvent: {}
+[28.185966] (-) TimerEvent: {}
+[28.286294] (-) TimerEvent: {}
+[28.386599] (-) TimerEvent: {}
+[28.486879] (-) TimerEvent: {}
+[28.587145] (-) TimerEvent: {}
+[28.687463] (-) TimerEvent: {}
+[28.787759] (-) TimerEvent: {}
+[28.888068] (-) TimerEvent: {}
+[28.988363] (-) TimerEvent: {}
+[29.088660] (-) TimerEvent: {}
+[29.188964] (-) TimerEvent: {}
+[29.289239] (-) TimerEvent: {}
+[29.389516] (-) TimerEvent: {}
+[29.489832] (-) TimerEvent: {}
+[29.590210] (-) TimerEvent: {}
+[29.690572] (-) TimerEvent: {}
+[29.790883] (-) TimerEvent: {}
+[29.891148] (-) TimerEvent: {}
+[29.991449] (-) TimerEvent: {}
+[30.091761] (-) TimerEvent: {}
+[30.192065] (-) TimerEvent: {}
+[30.292430] (-) TimerEvent: {}
+[30.392790] (-) TimerEvent: {}
+[30.493129] (-) TimerEvent: {}
+[30.593423] (-) TimerEvent: {}
+[30.693785] (-) TimerEvent: {}
+[30.794061] (-) TimerEvent: {}
+[30.894428] (-) TimerEvent: {}
+[30.994798] (-) TimerEvent: {}
+[31.095162] (-) TimerEvent: {}
+[31.195525] (-) TimerEvent: {}
+[31.295887] (-) TimerEvent: {}
+[31.396155] (-) TimerEvent: {}
+[31.496434] (-) TimerEvent: {}
+[31.596686] (-) TimerEvent: {}
+[31.697115] (-) TimerEvent: {}
+[31.797539] (-) TimerEvent: {}
+[31.897909] (-) TimerEvent: {}
+[31.998172] (-) TimerEvent: {}
+[32.098441] (-) TimerEvent: {}
+[32.198752] (-) TimerEvent: {}
+[32.299025] (-) TimerEvent: {}
+[32.399324] (-) TimerEvent: {}
+[32.499625] (-) TimerEvent: {}
+[32.599933] (-) TimerEvent: {}
+[32.700240] (-) TimerEvent: {}
+[32.800565] (-) TimerEvent: {}
+[32.900924] (-) TimerEvent: {}
+[33.001247] (-) TimerEvent: {}
+[33.101548] (-) TimerEvent: {}
+[33.201817] (-) TimerEvent: {}
+[33.302147] (-) TimerEvent: {}
+[33.402463] (-) TimerEvent: {}
+[33.502773] (-) TimerEvent: {}
+[33.603088] (-) TimerEvent: {}
+[33.703391] (-) TimerEvent: {}
+[33.803714] (-) TimerEvent: {}
+[33.903997] (-) TimerEvent: {}
+[34.004276] (-) TimerEvent: {}
+[34.104607] (-) TimerEvent: {}
+[34.204885] (-) TimerEvent: {}
+[34.305196] (-) TimerEvent: {}
+[34.405465] (-) TimerEvent: {}
+[34.505750] (-) TimerEvent: {}
+[34.606060] (-) TimerEvent: {}
+[34.706319] (-) TimerEvent: {}
+[34.806629] (-) TimerEvent: {}
+[34.906949] (-) TimerEvent: {}
+[35.007257] (-) TimerEvent: {}
+[35.107550] (-) TimerEvent: {}
+[35.207818] (-) TimerEvent: {}
+[35.308082] (-) TimerEvent: {}
+[35.408446] (-) TimerEvent: {}
+[35.508717] (-) TimerEvent: {}
+[35.609007] (-) TimerEvent: {}
+[35.709272] (-) TimerEvent: {}
+[35.809538] (-) TimerEvent: {}
+[35.909810] (-) TimerEvent: {}
+[36.010103] (-) TimerEvent: {}
+[36.110408] (-) TimerEvent: {}
+[36.210711] (-) TimerEvent: {}
+[36.310965] (-) TimerEvent: {}
+[36.411231] (-) TimerEvent: {}
+[36.511531] (-) TimerEvent: {}
+[36.611833] (-) TimerEvent: {}
+[36.712130] (-) TimerEvent: {}
+[36.812427] (-) TimerEvent: {}
+[36.912730] (-) TimerEvent: {}
+[37.013038] (-) TimerEvent: {}
+[37.113332] (-) TimerEvent: {}
+[37.213633] (-) TimerEvent: {}
+[37.313933] (-) TimerEvent: {}
+[37.414226] (-) TimerEvent: {}
+[37.514530] (-) TimerEvent: {}
+[37.614807] (-) TimerEvent: {}
+[37.715101] (-) TimerEvent: {}
+[37.815429] (-) TimerEvent: {}
+[37.915719] (-) TimerEvent: {}
+[38.016023] (-) TimerEvent: {}
+[38.116320] (-) TimerEvent: {}
+[38.216591] (-) TimerEvent: {}
+[38.316897] (-) TimerEvent: {}
+[38.417187] (-) TimerEvent: {}
+[38.517482] (-) TimerEvent: {}
+[38.617775] (-) TimerEvent: {}
+[38.718041] (-) TimerEvent: {}
+[38.818375] (-) TimerEvent: {}
+[38.918699] (-) TimerEvent: {}
+[39.019031] (-) TimerEvent: {}
+[39.119317] (-) TimerEvent: {}
+[39.219637] (-) TimerEvent: {}
+[39.319960] (-) TimerEvent: {}
+[39.420249] (-) TimerEvent: {}
+[39.520526] (-) TimerEvent: {}
+[39.620833] (-) TimerEvent: {}
+[39.721105] (-) TimerEvent: {}
+[39.821407] (-) TimerEvent: {}
+[39.921739] (-) TimerEvent: {}
+[40.022007] (-) TimerEvent: {}
+[40.122280] (-) TimerEvent: {}
+[40.222558] (-) TimerEvent: {}
+[40.322875] (-) TimerEvent: {}
+[40.423179] (-) TimerEvent: {}
+[40.523458] (-) TimerEvent: {}
+[40.623788] (-) TimerEvent: {}
+[40.724113] (-) TimerEvent: {}
+[40.824382] (-) TimerEvent: {}
+[40.924712] (-) TimerEvent: {}
+[41.025045] (-) TimerEvent: {}
+[41.125364] (-) TimerEvent: {}
+[41.225703] (-) TimerEvent: {}
+[41.326016] (-) TimerEvent: {}
+[41.426371] (-) TimerEvent: {}
+[41.526668] (-) TimerEvent: {}
+[41.626939] (-) TimerEvent: {}
+[41.727204] (-) TimerEvent: {}
+[41.827508] (-) TimerEvent: {}
+[41.927807] (-) TimerEvent: {}
+[42.028066] (-) TimerEvent: {}
+[42.128387] (-) TimerEvent: {}
+[42.228692] (-) TimerEvent: {}
+[42.329013] (-) TimerEvent: {}
+[42.429321] (-) TimerEvent: {}
+[42.529617] (-) TimerEvent: {}
+[42.629939] (-) TimerEvent: {}
+[42.730237] (-) TimerEvent: {}
+[42.830532] (-) TimerEvent: {}
+[42.930856] (-) TimerEvent: {}
+[43.031112] (-) TimerEvent: {}
+[43.131401] (-) TimerEvent: {}
+[43.231693] (-) TimerEvent: {}
+[43.331991] (-) TimerEvent: {}
+[43.432285] (-) TimerEvent: {}
+[43.532588] (-) TimerEvent: {}
+[43.632874] (-) TimerEvent: {}
+[43.733190] (-) TimerEvent: {}
+[43.833479] (-) TimerEvent: {}
+[43.933790] (-) TimerEvent: {}
+[44.034098] (-) TimerEvent: {}
+[44.134375] (-) TimerEvent: {}
+[44.234667] (-) TimerEvent: {}
+[44.334962] (-) TimerEvent: {}
+[44.435249] (-) TimerEvent: {}
+[44.535581] (-) TimerEvent: {}
+[44.635885] (-) TimerEvent: {}
+[44.736200] (-) TimerEvent: {}
+[44.836502] (-) TimerEvent: {}
+[44.936830] (-) TimerEvent: {}
+[45.037135] (-) TimerEvent: {}
+[45.137402] (-) TimerEvent: {}
+[45.237721] (-) TimerEvent: {}
+[45.338031] (-) TimerEvent: {}
+[45.438315] (-) TimerEvent: {}
+[45.538629] (-) TimerEvent: {}
+[45.638901] (-) TimerEvent: {}
+[45.739162] (-) TimerEvent: {}
+[45.839431] (-) TimerEvent: {}
+[45.939758] (-) TimerEvent: {}
+[46.040050] (-) TimerEvent: {}
+[46.140340] (-) TimerEvent: {}
+[46.240625] (-) TimerEvent: {}
+[46.340902] (-) TimerEvent: {}
+[46.441173] (-) TimerEvent: {}
+[46.541471] (-) TimerEvent: {}
+[46.641790] (-) TimerEvent: {}
+[46.742056] (-) TimerEvent: {}
+[46.842354] (-) TimerEvent: {}
+[46.942611] (-) TimerEvent: {}
+[47.042886] (-) TimerEvent: {}
+[47.143159] (-) TimerEvent: {}
+[47.243430] (-) TimerEvent: {}
+[47.343728] (-) TimerEvent: {}
+[47.444003] (-) TimerEvent: {}
+[47.544291] (-) TimerEvent: {}
+[47.644622] (-) TimerEvent: {}
+[47.744915] (-) TimerEvent: {}
+[47.845195] (-) TimerEvent: {}
+[47.945501] (-) TimerEvent: {}
+[48.045806] (-) TimerEvent: {}
+[48.146103] (-) TimerEvent: {}
+[48.246458] (-) TimerEvent: {}
+[48.346790] (-) TimerEvent: {}
+[48.447105] (-) TimerEvent: {}
+[48.547396] (-) TimerEvent: {}
+[48.647734] (-) TimerEvent: {}
+[48.748025] (-) TimerEvent: {}
+[48.848299] (-) TimerEvent: {}
+[48.948573] (-) TimerEvent: {}
+[49.048862] (-) TimerEvent: {}
+[49.149165] (-) TimerEvent: {}
+[49.249507] (-) TimerEvent: {}
+[49.349830] (-) TimerEvent: {}
+[49.450134] (-) TimerEvent: {}
+[49.550438] (-) TimerEvent: {}
+[49.650805] (-) TimerEvent: {}
+[49.751136] (-) TimerEvent: {}
+[49.851456] (-) TimerEvent: {}
+[49.951792] (-) TimerEvent: {}
+[50.052108] (-) TimerEvent: {}
+[50.152402] (-) TimerEvent: {}
+[50.252735] (-) TimerEvent: {}
+[50.353014] (-) TimerEvent: {}
+[50.453345] (-) TimerEvent: {}
+[50.553667] (-) TimerEvent: {}
+[50.654003] (-) TimerEvent: {}
+[50.754268] (-) TimerEvent: {}
+[50.854536] (-) TimerEvent: {}
+[50.954811] (-) TimerEvent: {}
+[51.055071] (-) TimerEvent: {}
+[51.155364] (-) TimerEvent: {}
+[51.255658] (-) TimerEvent: {}
+[51.355940] (-) TimerEvent: {}
+[51.456206] (-) TimerEvent: {}
+[51.556467] (-) TimerEvent: {}
+[51.656784] (-) TimerEvent: {}
+[51.757067] (-) TimerEvent: {}
+[51.857337] (-) TimerEvent: {}
+[51.957634] (-) TimerEvent: {}
+[52.057923] (-) TimerEvent: {}
+[52.158191] (-) TimerEvent: {}
+[52.258456] (-) TimerEvent: {}
+[52.358769] (-) TimerEvent: {}
+[52.459039] (-) TimerEvent: {}
+[52.559338] (-) TimerEvent: {}
+[52.659628] (-) TimerEvent: {}
+[52.759909] (-) TimerEvent: {}
+[52.860177] (-) TimerEvent: {}
+[52.960448] (-) TimerEvent: {}
+[53.060764] (-) TimerEvent: {}
+[53.161064] (-) TimerEvent: {}
+[53.261366] (-) TimerEvent: {}
+[53.361667] (-) TimerEvent: {}
+[53.461985] (-) TimerEvent: {}
+[53.562281] (-) TimerEvent: {}
+[53.662581] (-) TimerEvent: {}
+[53.762890] (-) TimerEvent: {}
+[53.863199] (-) TimerEvent: {}
+[53.963474] (-) TimerEvent: {}
+[54.063824] (-) TimerEvent: {}
+[54.164128] (-) TimerEvent: {}
+[54.264390] (-) TimerEvent: {}
+[54.364693] (-) TimerEvent: {}
+[54.465025] (-) TimerEvent: {}
+[54.565330] (-) TimerEvent: {}
+[54.665638] (-) TimerEvent: {}
+[54.765916] (-) TimerEvent: {}
+[54.866214] (-) TimerEvent: {}
+[54.894310] (lidar_imu_init) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable li_init\x1b[0m\n'}
+[54.966358] (-) TimerEvent: {}
+[55.066633] (-) TimerEvent: {}
+[55.166971] (-) TimerEvent: {}
+[55.267260] (-) TimerEvent: {}
+[55.367549] (-) TimerEvent: {}
+[55.467879] (-) TimerEvent: {}
+[55.568180] (-) TimerEvent: {}
+[55.668489] (-) TimerEvent: {}
+[55.768840] (-) TimerEvent: {}
+[55.869131] (-) TimerEvent: {}
+[55.969415] (-) TimerEvent: {}
+[56.069757] (-) TimerEvent: {}
+[56.170049] (-) TimerEvent: {}
+[56.270404] (-) TimerEvent: {}
+[56.370710] (-) TimerEvent: {}
+[56.470989] (-) TimerEvent: {}
+[56.571247] (-) TimerEvent: {}
+[56.671527] (-) TimerEvent: {}
+[56.678439] (lidar_imu_init) StdoutLine: {'line': b'[100%] Built target li_init\n'}
+[56.690057] (lidar_imu_init) CommandEnded: {'returncode': 0}
+[56.690907] (lidar_imu_init) JobProgress: {'identifier': 'lidar_imu_init', 'progress': 'install'}
+[56.699149] (lidar_imu_init) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hopcopter/ws_lidar_imu_init/build/lidar_imu_init'], 'cwd': '/home/hopcopter/ws_lidar_imu_init/build/lidar_imu_init', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'hopcopter'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/hopcopter/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/226/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hopcopter/ws_livox/install/livox_ros_driver2/lib:/home/hopcopter/rislab-hopcopter/ros2_ws/install/tutorial_interfaces/lib:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hopcopter'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/hopcopter/ws_livox'), ('TERM_PROGRAM_VERSION', '1.109.5'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/226/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/hopcopter/.nvm/versions/node/v20.20.0/bin'), ('NVM_INC', '/home/hopcopter/.nvm/versions/node/v20.20.0/include/node'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/hopcopter/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/226/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/226/usr/share/code/code'), ('MANAGERPID', '867'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1052'), ('BUNDLED_DEBUGPY_PATH', '/home/hopcopter/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3397'), ('NVM_DIR', '/home/hopcopter/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hopcopter/ws_livox/install:/home/hopcopter/rislab-hopcopter/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hopcopter'), ('JOURNAL_STREAM', '8:12338'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'hopcopter'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/home/hopcopter/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/hopcopter/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/hopcopter/.local/bin:/opt/ros/humble/bin:/home/hopcopter/.nvm/versions/node/v20.20.0/bin:/home/hopcopter/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hopcopter/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/hopcopter-ROUTER-2L:@/tmp/.ICE-unix/1002,unix/hopcopter-ROUTER-2L:/tmp/.ICE-unix/1002'), ('GTK_EXE_PREFIX', '/snap/code/226/usr'), ('INVOCATION_ID', '027c6787bc984cb596eabbdf9cf000f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/226/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hopcopter/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-93dbe603f89f16a5.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/hopcopter/.config/Code/User/workspaceStorage/7004e197838e3676787cdc81eebef86d/ms-python.python/pythonrc.py'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/hopcopter/snap/code/226/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FGE4L3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-adffeaa08b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/hopcopter/snap/code/226/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/hopcopter/ws_livox/install/livox_ros_driver2:/home/hopcopter/rislab-hopcopter/ros2_ws/install/test_tutorial_interfaces:/home/hopcopter/rislab-hopcopter/ros2_ws/install/hopping_robot:/home/hopcopter/rislab-hopcopter/ros2_ws/install/tutorial_interfaces:/home/hopcopter/rislab-hopcopter/ros2_ws/install/tf_transform_broadcast:/home/hopcopter/rislab-hopcopter/ros2_ws/install/rrt_star_planner:/home/hopcopter/rislab-hopcopter/ros2_ws/install/pc2tocustom:/home/hopcopter/rislab-hopcopter/ros2_ws/install/local_planning:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_sim:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_examples:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_py:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hopcopter/ws_lidar_imu_init/build/lidar_imu_init'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/hopcopter/snap/code/226/.local/share:/home/hopcopter/snap/code/226:/snap/code/226/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hopcopter/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/hopcopter/rislab-hopcopter/ros2_ws/install/test_tutorial_interfaces/lib/python3.10/site-packages:/home/hopcopter/rislab-hopcopter/ros2_ws/install/hopping_robot/lib/python3.10/site-packages:/home/hopcopter/rislab-hopcopter/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/hopcopter/rislab-hopcopter/ros2_ws/install/tf_transform_broadcast/lib/python3.10/site-packages:/home/hopcopter/rislab-hopcopter/ros2_ws/install/pc2tocustom/lib/python3.10/site-packages:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hopcopter/ws_livox/install/livox_ros_driver2:/home/hopcopter/rislab-hopcopter/ros2_ws/install/tutorial_interfaces:/home/hopcopter/rislab-hopcopter/ros2_ws/install/rrt_star_planner:/home/hopcopter/rislab-hopcopter/ros2_ws/install/local_planning:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_sim:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_examples:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_interfaces:/home/hopcopter/rislab-hopcopter/ros2_ws/install/test_tutorial_interfaces:/home/hopcopter/rislab-hopcopter/ros2_ws/install/hopping_robot:/home/hopcopter/rislab-hopcopter/ros2_ws/install/tf_transform_broadcast:/home/hopcopter/rislab-hopcopter/ros2_ws/install/pc2tocustom:/home/hopcopter/rislab-hopcopter/ros2_ws/install/crazyflie_py:/opt/ros/humble')]), 'shell': False}
+[56.707693] (lidar_imu_init) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[56.707974] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/ament_index/resource_index/rosidl_interfaces/lidar_imu_init\n'}
+[56.708106] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init\n'}
+[56.708227] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg\n'}
+[56.708317] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail\n'}
+[56.708403] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__struct.h\n'}
+[56.708475] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__type_support.h\n'}
+[56.708545] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__functions.c\n'}
+[56.708613] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__type_support.h\n'}
+[56.708681] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__struct.h\n'}
+[56.708758] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__functions.c\n'}
+[56.708853] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__functions.h\n'}
+[56.708917] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__functions.h\n'}
+[56.708980] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/pose6_d.h\n'}
+[56.709043] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/states.h\n'}
+[56.709104] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/rosidl_generator_c__visibility_control.h\n'}
+[56.709167] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/environment/library_path.sh\n'}
+[56.709234] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/environment/library_path.dsv\n'}
+[56.709323] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_generator_c.so\n'}
+[56.709526] (lidar_imu_init) StdoutLine: {'line': b'-- Set runtime path of "/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_generator_c.so" to ""\n'}
+[56.709601] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init\n'}
+[56.709684] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg\n'}
+[56.709791] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail\n'}
+[56.709856] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__rosidl_typesupport_fastrtps_c.h\n'}
+[56.709917] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h\n'}
+[56.709982] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[56.710424] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_typesupport_fastrtps_c.so\n'}
+[56.710808] (lidar_imu_init) StdoutLine: {'line': b'-- Set runtime path of "/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[56.710898] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init\n'}
+[56.711023] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg\n'}
+[56.711086] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail\n'}
+[56.711193] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__type_support.hpp\n'}
+[56.711258] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__builder.hpp\n'}
+[56.711378] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__traits.hpp\n'}
+[56.711442] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__struct.hpp\n'}
+[56.711524] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__builder.hpp\n'}
+[56.711583] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__struct.hpp\n'}
+[56.711642] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__traits.hpp\n'}
+[56.711700] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__type_support.hpp\n'}
+[56.711769] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/pose6_d.hpp\n'}
+[56.711830] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/states.hpp\n'}
+[56.711889] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[56.711955] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init\n'}
+[56.712014] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg\n'}
+[56.712074] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[56.712133] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail\n'}
+[56.712193] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/dds_fastrtps\n'}
+[56.712257] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[56.712333] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[56.712394] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_typesupport_fastrtps_cpp.so\n'}
+[56.712544] (lidar_imu_init) StdoutLine: {'line': b'-- Set runtime path of "/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[56.712627] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init\n'}
+[56.712709] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg\n'}
+[56.712813] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail\n'}
+[56.712887] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__type_support.c\n'}
+[56.712947] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__type_support.c\n'}
+[56.713006] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h\n'}
+[56.713065] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__rosidl_typesupport_introspection_c.h\n'}
+[56.713124] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[56.713538] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_typesupport_introspection_c.so\n'}
+[56.713900] (lidar_imu_init) StdoutLine: {'line': b'-- Set runtime path of "/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_typesupport_introspection_c.so" to ""\n'}
+[56.714355] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_typesupport_c.so\n'}
+[56.714624] (lidar_imu_init) StdoutLine: {'line': b'-- Set runtime path of "/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_typesupport_c.so" to ""\n'}
+[56.714715] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init\n'}
+[56.714810] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg\n'}
+[56.714887] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail\n'}
+[56.714968] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__type_support.cpp\n'}
+[56.715027] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[56.715085] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/states__rosidl_typesupport_introspection_cpp.hpp\n'}
+[56.715144] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/include/lidar_imu_init/lidar_imu_init/msg/detail/pose6_d__type_support.cpp\n'}
+[56.715579] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_typesupport_introspection_cpp.so\n'}
+[56.715945] (lidar_imu_init) StdoutLine: {'line': b'-- Set runtime path of "/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[56.716217] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_typesupport_cpp.so\n'}
+[56.716515] (lidar_imu_init) StdoutLine: {'line': b'-- Set runtime path of "/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_typesupport_cpp.so" to ""\n'}
+[56.716588] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/environment/pythonpath.sh\n'}
+[56.716664] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/environment/pythonpath.dsv\n'}
+[56.716840] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init-0.0.0-py3.10.egg-info\n'}
+[56.716920] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[56.717006] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[56.717152] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[56.717293] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[56.717439] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init\n'}
+[56.717531] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/lidar_imu_init_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[56.717676] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/lidar_imu_init_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[56.717845] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/__init__.py\n'}
+[56.717961] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/msg\n'}
+[56.718076] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/msg/_pose6_d_s.c\n'}
+[56.718161] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/msg/__init__.py\n'}
+[56.718267] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/msg/_states_s.c\n'}
+[56.718337] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/msg/_pose6_d.py\n'}
+[56.718411] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/msg/_states.py\n'}
+[56.718485] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/_lidar_imu_init_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[56.718588] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/liblidar_imu_init__rosidl_generator_py.so\n'}
+[56.718670] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/_lidar_imu_init_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[56.718748] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/_lidar_imu_init_s.ep.rosidl_typesupport_c.c\n'}
+[56.718830] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/lidar_imu_init_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[56.755604] (lidar_imu_init) StdoutLine: {'line': b"Listing '/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init'...\n"}
+[56.755804] (lidar_imu_init) StdoutLine: {'line': b"Compiling '/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/__init__.py'...\n"}
+[56.755880] (lidar_imu_init) StdoutLine: {'line': b"Listing '/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/msg'...\n"}
+[56.760240] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/lidar_imu_init_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[56.760508] (lidar_imu_init) StdoutLine: {'line': b'-- Set runtime path of "/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/lidar_imu_init_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[56.760697] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/lidar_imu_init_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[56.761040] (lidar_imu_init) StdoutLine: {'line': b'-- Set runtime path of "/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/lidar_imu_init_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[56.761213] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/lidar_imu_init_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[56.761488] (lidar_imu_init) StdoutLine: {'line': b'-- Set runtime path of "/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/local/lib/python3.10/dist-packages/lidar_imu_init/lidar_imu_init_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[56.761929] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_generator_py.so\n'}
+[56.762303] (lidar_imu_init) StdoutLine: {'line': b'-- Set runtime path of "/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/liblidar_imu_init__rosidl_generator_py.so" to ""\n'}
+[56.762385] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/msg/Pose6D.idl\n'}
+[56.762474] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/msg/States.idl\n'}
+[56.762570] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/msg/Pose6D.msg\n'}
+[56.762633] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/msg/States.msg\n'}
+[56.763288] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/lidar_imu_init/li_init\n'}
+[56.765869] (lidar_imu_init) StdoutLine: {'line': b'-- Set runtime path of "/home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/lib/lidar_imu_init/li_init" to ""\n'}
+[56.766136] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/config\n'}
+[56.766257] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/config/avia.yaml\n'}
+[56.766342] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/config/ouster.yaml\n'}
+[56.766405] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/config/mid360.yaml\n'}
+[56.766466] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/config/velodyne.yaml\n'}
+[56.766531] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/config/ouster32.yaml\n'}
+[56.766596] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/config/ouster64.yaml\n'}
+[56.766660] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/config/horizon.yaml\n'}
+[56.766737] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/config/robosense.yaml\n'}
+[56.766837] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/config/pandar.yaml\n'}
+[56.766904] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/launch\n'}
+[56.766972] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/launch/mapping.launch.py\n'}
+[56.767049] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/launch/gdb_debug_example.launch\n'}
+[56.767121] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/rviz\n'}
+[56.767190] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/rviz/li_init.rviz\n'}
+[56.767260] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/ament_index/resource_index/package_run_dependencies/lidar_imu_init\n'}
+[56.767330] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/ament_index/resource_index/parent_prefix_path/lidar_imu_init\n'}
+[56.767489] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/environment/ament_prefix_path.sh\n'}
+[56.767556] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/environment/ament_prefix_path.dsv\n'}
+[56.767623] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/environment/path.sh\n'}
+[56.767694] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/environment/path.dsv\n'}
+[56.767799] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/local_setup.bash\n'}
+[56.767873] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/local_setup.sh\n'}
+[56.767971] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/local_setup.zsh\n'}
+[56.768043] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/local_setup.dsv\n'}
+[56.768107] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/package.dsv\n'}
+[56.768180] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/ament_index/resource_index/packages/lidar_imu_init\n'}
+[56.768247] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/export_lidar_imu_init__rosidl_generator_cExport.cmake\n'}
+[56.768314] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/export_lidar_imu_init__rosidl_generator_cExport-release.cmake\n'}
+[56.768409] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/export_lidar_imu_init__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[56.768501] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/export_lidar_imu_init__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[56.768591] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/export_lidar_imu_init__rosidl_generator_cppExport.cmake\n'}
+[56.768680] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/export_lidar_imu_init__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[56.768780] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/export_lidar_imu_init__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[56.768872] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/lidar_imu_init__rosidl_typesupport_introspection_cExport.cmake\n'}
+[56.768961] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/lidar_imu_init__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[56.769048] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/lidar_imu_init__rosidl_typesupport_cExport.cmake\n'}
+[56.769137] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/lidar_imu_init__rosidl_typesupport_cExport-release.cmake\n'}
+[56.769248] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/lidar_imu_init__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[56.769336] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/lidar_imu_init__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[56.769515] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/lidar_imu_init__rosidl_typesupport_cppExport.cmake\n'}
+[56.769615] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/lidar_imu_init__rosidl_typesupport_cppExport-release.cmake\n'}
+[56.769766] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/export_lidar_imu_init__rosidl_generator_pyExport.cmake\n'}
+[56.769880] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/export_lidar_imu_init__rosidl_generator_pyExport-release.cmake\n'}
+[56.770031] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/rosidl_cmake-extras.cmake\n'}
+[56.770161] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[56.770235] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[56.770305] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[56.770412] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[56.770480] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[56.770545] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[56.770610] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/lidar_imu_initConfig.cmake\n'}
+[56.770675] (lidar_imu_init) StdoutLine: {'line': b'-- Up-to-date: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/cmake/lidar_imu_initConfig-version.cmake\n'}
+[56.770750] (lidar_imu_init) StdoutLine: {'line': b'-- Installing: /home/hopcopter/ws_lidar_imu_init/install/lidar_imu_init/share/lidar_imu_init/package.xml\n'}
+[56.771593] (-) TimerEvent: {}
+[56.772443] (lidar_imu_init) CommandEnded: {'returncode': 0}
+[56.794519] (lidar_imu_init) JobEnded: {'identifier': 'lidar_imu_init', 'rc': 0}
+[56.795215] (-) EventReactorShutdown: {}
