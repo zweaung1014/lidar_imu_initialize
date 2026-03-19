@@ -1,9 +1,0 @@
-setup.py
-lidar_imu_init/__init__.py
-lidar_imu_init.egg-info/PKG-INFO
-lidar_imu_init.egg-info/SOURCES.txt
-lidar_imu_init.egg-info/dependency_links.txt
-lidar_imu_init.egg-info/top_level.txt
-lidar_imu_init/msg/__init__.py
-lidar_imu_init/msg/_pose6_d.py
-lidar_imu_init/msg/_states.py

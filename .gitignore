@@ -1,0 +1,65 @@
+# Colcon build directories
+build/
+install/
+log/
+
+# ROS generated files
+*.pyc
+__pycache__/
+*.egg-info/
+
+# C++ build artifacts
+*.o
+*.a
+*.so
+*.so.*
+*.dSYM/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.cproject
+.pydevproject
+.settings/
+
+# Logs and output
+*.log
+Log/
+result/
+
+# Data files (uncomment if needed)
+# *.bag
+# *.db3
+# *.pcd
+# *.ply
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Python
+*.py[cod]
+*$py.class
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# MATLAB
+*.asv
+*.m~
